@@ -1,0 +1,17 @@
+###Ipv6
+obedece tudo em numeração,
+apolição deixa de utilizar mascará de rede, apenas o de prefixo.
+existe alguns metodos de propagação de mensagens diferente de msng diferente de ipv4 (broadcas...),
+ai passa a ter outro indereço que é multianydesk.
+endereço ipv4 é constituido por 4 octedo, cada referencia é 8 bits, no Ipv6 deixa de ter isso e deixa ter hexadecimal,
+aonde tem 16 representações, aonde não repede nenhum digito, passa de ter numero representado ai passa ter letra 
+apartir do 9 começa no 0 até o f 
+
+ipv4: 192.168.7.15
+
+     cada um deses é um hexeto separados por um . (.) 0000.0000.
+Ipv6: ABCD:1234:A1B1:7690:567C:89CA:BEB0:...
+128bits. ai faz 2^128
+
+a forma de separa é de um ponto (.) para dois ponto (:) sistema de numeração diferente, sistema de bits, bloco.
+saber o que é rede e o que é host: para reprenstar é apenas do prefixo = /64, /72 etc.
