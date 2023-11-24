@@ -37,3 +37,32 @@ a forma de separa é de um ponto (.) para dois ponto (:) sistema de numeração 
 saber o que é rede e o que é host
 para reprenstar é apenas do prefixo =/32 /48 /56 /64 /72 etc.
 
+Já no packtracer para adicoinar Ipv6 no pc
+Ipv6 Address: 11:beba:cafe::1010
+link Local Address: FEB0::240:BFF:FEC1:9C8C
+Defauld Gateway F1:BEBA:CAFE::A o A é o endereço do roteador
+
+No roteador CLI:  
+No, enable, configure terminal, hostname (seu_nome)...,
+ interface g0/0/0 a interface depende, Ipv6 enable, Ipv6 add "abcd::a/64"
+ no shutdown, se estiver verde não ta funcionando
+
+entrear na outra interface
+ interface g0/0/1, Ipv6 enable, Ipv6 add b0b0:1234:5678:abcd::a/64, no shutdown,
+
+R2
+ CLI, enable, configure terminal, hostname(seu_nome), interface g0/0/0, ipv6 enable,
+ ipv6 add b0b0:1234:5678:abcd::b/64, no shutdown
+
+interface
+ Ipv6 enable, ipv6 add f1:beba:cafe::a/64, no shutdown
+
+Fazer a rota estatica no router 0 referindo a rede com um todo
+ CLI, ipv6 route f1:beba:cafe::/64 b0b0:1234:5678:abcd::b
+
+Roteador R1
+ CLI, exit, ipv6 route ABCD::/64 b0b0:1234:5678:abcd::a
+
+Habilitar o Ipv6 nos reteadores
+ ipv6 unicast-routing 
+
