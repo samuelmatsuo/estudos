@@ -1,7 +1,7 @@
 # Meu Repositório de Estudos - Sistemas de Informação 👨‍💻📚
 
-## Estudante: [Samuel Matsuo]
-🏫 Cidade: [Pato Branco PR]
+## Estudante: Samuel Matsuo
+🏫 Cidade: Pato Branco PR
 
 Bem-vindo ao meu repositório de estudos da faculdade de Sistemas de Informação! Aqui, mantenho materiais, projetos e anotações relacionados aos cursos do meu programa acadêmico.
 
