@@ -21,7 +21,7 @@ Contribuições são bem-vindas! Se você deseja colaborar adicionando mais recu
 
 ## Disciplinas (Exemplos):
 - [REDES](https://github.com/samuelmatsuo/estudos/tree/main/REDES)
-- ...
+- [IA](https://github.com/samuelmatsuo/estudos/tree/main/IA)
 
 ### Como Utilizar:
 - Clone o repositório para sua máquina local:
